@@ -63,7 +63,15 @@ public class BlankFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         final View rootView = inflater.inflate(R.layout.fragment_blank, container, false);
-        final RadioGroup RadioGroup =
+        final RadioGroup radioGroup = rootView.findViewById(R.id.radio_group);
+
+        radioGroup.setOnClickListener(new RadioGroup.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
 
         return rootView;
 
