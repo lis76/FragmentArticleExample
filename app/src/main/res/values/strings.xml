@@ -5,4 +5,8 @@
     <string name="question_article">КАКОЕ МЫЛО ВАМ НРАВЯТСЯ?</string>
     <string name="yes">YES</string>
     <string name="no">NO</string>
+    <string name="yes_messege">Нравится это</string>
+    <string name="no_messege">САСИБО ЗА ОТВЕТ</string>
+    <string name="title">Cry of oShadow</string>
+    <string name="article">Что то придумаем</string>
 </resources>
